@@ -15,9 +15,10 @@ body {
 .card {
   margin: 7% auto;
   max-width: 26rem;
+  min-width: 25.9rem;
   border: 10px solid #FFE658;
   border-radius: .4rem;
-  height: 60vh;
+  height: 38.8rem;
   background: #e0ece4;
   min-height: 38.8rem;
   max-height: 38.8rem;
@@ -46,7 +47,7 @@ body {
 .card-title__power{
   font-size: 1.5rem;
   display: flex;
-  font-weight: bold;
+  font-weiht: bold;
   align-items: center;
 }
 
