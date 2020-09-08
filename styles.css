@@ -14,12 +14,13 @@ body {
 
 .card {
   margin: 7% auto;
-  max-width: 24rem;
-  border: 8px solid #FFE658;
+  max-width: 26rem;
+  border: 10px solid #FFE658;
   border-radius: .4rem;
   height: 60vh;
   background: #e0ece4;
-  min-height: 38.5rem;
+  min-height: 38.8rem;
+  max-height: 38.8rem;
 }
 
 .card-title {
@@ -71,10 +72,12 @@ body {
 
 .card-image {
   border: 3px solid #938B87;
+  width: 95%;
 }
 
 .card-down {
   margin-top: .8rem;
+  margin-left: .4rem;
 }
 
 .atack {
@@ -99,7 +102,7 @@ body {
 }
 
 .atack-description{
-  margin-left: 0.7rem;
+  margin:  0 0.4rem;
 }
 
 .atack-power{
