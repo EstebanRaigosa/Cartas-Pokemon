@@ -14,17 +14,30 @@ body {
 
 .card {
   margin: 7% auto;
-  max-width: 26rem;
-  min-width: 25.9rem;
-  border: 10px solid #FFE658;
-  border-radius: .4rem;
+  margin-bottom: 5rem;
+  max-width: 30rem;
+  min-width: 30rem;
+  border: 12px solid #FFE658;
+  border-radius: .6rem;
   height: 38.8rem;
   background: #e0ece4;
-  min-height: 38.8rem;
-  max-height: 38.8rem;
+  min-height: 47rem;
+  max-height: 47rem;
 }
 
-.card-title {
+.card-container {
+  border: 1px double lightgray;
+  box-shadow: 0 0 2px gray;
+  height: 100%;
+}
+
+.card-picachu {
+  background: #FFDF2B;
+  background: rgb(255,223,43);
+  background: linear-gradient(234deg, rgba(255,223,43,1) 21%, rgba(255,230,88,1) 30%, rgba(255,226,61,1) 57%, rgba(255,230,88,1) 63%, rgba(255,223,43,1) 75%);
+}
+
+  .card-title {
   display: flex;
   justify-content: space-between;
   height: 2.5rem;
@@ -47,7 +60,7 @@ body {
 .card-title__power{
   font-size: 1.5rem;
   display: flex;
-  font-weiht: bold;
+  font-weight: bold;
   align-items: center;
 }
 
@@ -58,7 +71,6 @@ body {
   width: 1.8rem;
   height: 1.8rem;
   border-radius: 100%;
-  border: 1px solid grey;
   margin: 0 .2rem;
 }
 
@@ -79,30 +91,37 @@ body {
 .card-down {
   margin-top: .8rem;
   margin-left: .4rem;
+  height: 49%;
 }
 
 .atack {
-  margin-top: .3rem;
+  margin-top: 1rem;
 }
 
-.atack-title {
-  font-size: 1.2rem;
+.atack-title {  
+  font-size: 1.5rem;
   text-align: center;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0.3rem;
 }
 
 .atack-title {
   margin-left: 0.7rem;
 }
 
+.atack-title__text {  
+  font-size: inherit;
+  padding-right: 5rem;
+}
+
 .atack-image {
   width: 1.6rem;
   border-radius: 100%;
-  border: 1px solid grey;
 }
 
 .atack-description{
+  font-size: 1.2rem;
   margin:  0 0.4rem;
 }
 
@@ -118,7 +137,7 @@ body {
   border-top: 1px solid grey;
   border-bottom: 1px solid lightgrey;
   width: 70%;
-  height: 3rem;
+  height: 3.5rem;
   box-shadow: 0px 10px 10px lightgrey;
   box-shadow: -1px 1px 5px grey;
   font-size: 0.8rem;
@@ -128,6 +147,7 @@ body {
   display: flex;
   margin-top: .3rem;
   margin-left: 0.6rem;
+  padding-bottom: 2rem;
 }
 
 .weakness-image {
@@ -137,6 +157,7 @@ body {
 }
 
 .weakness-title__type{
+  font-size: 1rem;
   margin-right: 2rem;
   margin-left: 0.8rem;
 }
@@ -157,7 +178,7 @@ body {
 
 .retire-text {
   margin-right: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .retire-image {
   width: 1.3rem;
@@ -172,10 +193,45 @@ body {
 }
 
 .foot p {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: bold;
   margin-right: 0.5rem;
 }
 
 .foot img {
   height: 1.2rem;
+}
+
+.foot-picachu img {
+  height: 2rem;
+}
+
+.other-cards {
+  margin: 0 auto;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.other-cards__image {
+  background: midnightblue;
+  height: 50px;
+  width: 50px;
+  min-width: 50px;
+  border-radius: 100%;
+  margin: 0.5rem;
+  display: flex;  
+  align-items:  center;
+  justify-content: center;
+  border: 3px solid gray;
+  cursor: pointer;
+}
+
+.other-cards__image:hover {
+    width: 80px;
+    height: 80px;
+}
+
+.other-cards__image img {  
+  width: 80%;
 }
