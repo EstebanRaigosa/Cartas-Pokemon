@@ -91,7 +91,7 @@ body {
 .card-down {
   margin-top: .8rem;
   margin-left: .4rem;
-  height: 49%;
+  height: 48%;
 }
 
 .atack {
@@ -215,8 +215,8 @@ body {
 
 .other-cards__image {
   background: midnightblue;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   min-width: 50px;
   border-radius: 100%;
   margin: 0.5rem;
