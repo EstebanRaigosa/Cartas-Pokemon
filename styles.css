@@ -39,7 +39,7 @@ body {
 .card-picachu {
   background: #FFDF2B;
   background: rgb(255,223,43);
-  background: linear-gradient(234deg, rgba(255,223,43,1) 21%, rgba(255,230,88,1) 30%, rgba(255,226,61,1) 57%, rgba(255,230,88,1) 63%, rgba(255,223,43,1) 75%);
+background: linear-gradient(219deg, rgba(255,223,43,1) 0%, rgba(255,243,173,1) 20%, rgba(255,223,43,1) 35%, rgba(255,238,146,1) 63%, rgba(255,243,173,1) 88%, rgba(255,223,43,1) 98%);
 }
 
 .card-bulbasaour {
@@ -51,6 +51,11 @@ body {
 .card-squirtle {
   background: rgb(0,170,231);
   background: linear-gradient(234deg, rgba(0,170,231,1) 8%, rgba(136,208,243,1) 25%, rgba(196,226,246,1) 53%, rgba(196,226,246,1) 62%, rgba(196,226,246,1) 77%, rgba(0,170,231,1) 96%);
+}
+
+.card-charmander {
+  background: rgb(230,51,29);
+background: linear-gradient(234deg, rgba(230,51,29,1) 8%, rgba(235,110,55,1) 25%, rgba(245,172,123,1) 42%, rgba(235,110,55,1) 72%, rgba(241,147,96,1) 81%, rgba(235,110,55,1) 88%, rgba(230,51,29,1) 97%);
 }
 
   .card-title {
@@ -120,7 +125,7 @@ body {
 .card-down {
   margin-top: .8rem;
   margin-left: .4rem;
-  height: 48%;
+  height: 47%;
 }
 
 .atack {
@@ -185,6 +190,10 @@ body {
   box-shadow: 0px 10px 10px lightgrey;
   box-shadow: -1px 1px 5px grey;
   font-size: 0.8rem;
+}
+
+.card-charmander .weakness {
+  margin-top: 3.5rem;
 }
 
 .weakness-title figure{
@@ -274,10 +283,35 @@ body {
 }
 
 .other-cards__image:hover {
-    width: 80px;
-    height: 80px;
+    background: mediumpurple;
 }
 
 .other-cards__image img {  
   width: 80%;
+}
+
+.nav-eevee .eevee  {
+  width: 7rem;
+  height: 7rem;
+  background: mediumpurple;
+}
+.nav-picachu .picachu  {
+  width: 7rem;
+  height: 7rem;
+  background: mediumpurple;
+}
+.nav-bulbasaur .bulbasaur  {
+  width: 7rem;
+  height: 7rem;
+  background: mediumpurple;
+}
+.nav-squirtle .squirtle  {
+  width: 7rem;
+  height: 7rem;
+  background: mediumpurple;
+}
+.nav-charmander .charmander {
+  width: 7rem;
+  height: 7rem;
+  background: mediumpurple;
 }
