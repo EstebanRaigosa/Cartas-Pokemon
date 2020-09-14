@@ -13,7 +13,7 @@ body {
 }
 
 .card {
-  margin: 7% auto;
+  margin: 4% auto;
   margin-bottom: 3rem;
   max-width: 30rem;
   min-width: 30rem;
@@ -144,6 +144,7 @@ body {
 }
 
 .weakness-title figure{
+  max-width: 1.5rem;
   display: flex;
   margin-top: .3rem;
   margin-left: 0.6rem;
@@ -151,7 +152,7 @@ body {
 }
 
 .weakness-image {
-  width: 1.5rem;
+  width: 100%;
   border-radius: 100%;
   margin-right: 0.3rem;
 }
