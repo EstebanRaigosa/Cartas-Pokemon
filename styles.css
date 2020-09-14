@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: sans-serif;
+  background: lightgoldenrodyellow;
 }
 
 .card {
@@ -31,10 +32,25 @@ body {
   height: 100%;
 }
 
+.card-eevee {
+  background: rgb(157,156,165);
+  background: linear-gradient(234deg, rgba(157,156,165,1) 8%, rgba(191,190,192,1) 25%, rgba(242,245,238,1) 42%, rgba(162,162,170,1) 87%, rgba(191,190,192,1) 90%, rgba(242,245,238,1) 99%);
+}
 .card-picachu {
   background: #FFDF2B;
   background: rgb(255,223,43);
   background: linear-gradient(234deg, rgba(255,223,43,1) 21%, rgba(255,230,88,1) 30%, rgba(255,226,61,1) 57%, rgba(255,230,88,1) 63%, rgba(255,223,43,1) 75%);
+}
+
+.card-bulbasaour {
+  background: teal;
+  background: rgb(0,160,104);
+  background: linear-gradient(234deg, rgba(0,160,104,1) 8%, rgba(213,227,199,1) 25%, rgba(0,160,104,1) 63%, rgba(132,188,142,1) 75%, rgba(213,227,199,1) 89%);
+}
+
+.card-squirtle {
+  background: rgb(0,170,231);
+  background: linear-gradient(234deg, rgba(0,170,231,1) 8%, rgba(136,208,243,1) 25%, rgba(196,226,246,1) 53%, rgba(196,226,246,1) 62%, rgba(196,226,246,1) 77%, rgba(0,170,231,1) 96%);
 }
 
   .card-title {
@@ -46,6 +62,19 @@ body {
   box-shadow: 0px 5px 10px gray;
 }
 
+.card-title__element {
+  display: flex;
+  background: lightgray;
+  height: 2rem;
+  width: 5rem;
+  border: 2px solid gray;
+  border-radius: 0.7rem;
+  align-items: center;
+  padding-left: 0.5rem;  
+  box-shadow: -2px 2px 2px gray;
+  margin-left: 0.3rem;
+}
+
 .card-title div {
   display: flex;
 }
@@ -54,7 +83,7 @@ body {
   font-size: 1.6rem;
   display: flex;
   align-items: center;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .card-title__power{
@@ -96,6 +125,21 @@ body {
 
 .atack {
   margin-top: 1rem;
+}
+
+.atack-ability {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  background: lightgray;
+  height: 2rem;
+  width: 7rem;
+  border: 2px solid gray;
+  border-radius: 0.7rem;
+  align-items: center;
+  padding-left: 0.5rem;  
+  box-shadow: -2px 2px 2px gray;
 }
 
 .atack-title {  
