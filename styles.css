@@ -15,7 +15,7 @@ body {
 
 .card {
   margin: 4% auto;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
   max-width: 30rem;
   min-width: 30rem;
   border: 12px solid #FFE658;
@@ -263,11 +263,12 @@ background: linear-gradient(234deg, rgba(230,51,29,1) 8%, rgba(235,110,55,1) 25%
 
 .other-cards {
   margin: 0 auto;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   min-width: 6rem;
   min-height: 6rem;
-  margin-bottom: 1rem;
+  flex-wrap: wrap;
 }
 
 .other-cards__image {
@@ -316,25 +317,4 @@ background: linear-gradient(234deg, rgba(230,51,29,1) 8%, rgba(235,110,55,1) 25%
   min-width: 7rem;
   min-height: 7rem;
   background: mediumpurple;
-}
-
-.home section {
-  display: flex;
-  margin: 20% auto;
-  width: 90%;
-  justify-content: center;
-}
-
-.home-card {
-  width: 15rem;
-  height: 15rem;
-  border: 2px solid gray;
-  background: mediumblue;
-  border-radius: 1rem;
-  margin: 1rem;
-}
-
-.home-card img {
-  width: 100%;
-  height: 100%;
 }
