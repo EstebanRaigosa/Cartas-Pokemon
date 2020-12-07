@@ -8,3 +8,8 @@ Para ver un demo de las cartas haz click en el siguiente enlace: [Demo](https://
 
 [![](https://i.imgur.com/rVZreVV.png)](https://i.imgur.com/rVZreVV.png)
 
+## Tecnologías
+1. HTML
+2. CSS
+3. Flexbox
+
