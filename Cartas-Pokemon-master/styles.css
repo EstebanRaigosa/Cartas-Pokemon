@@ -1,0 +1,336 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  background: lightgoldenrodyellow;
+}
+
+.card {
+  margin: 4% auto;
+  margin-top: 2rem;
+  max-width: 30rem;
+  min-width: 30rem;
+  border: 12px solid #FFE658;
+  border-radius: .6rem;
+  height: 38.8rem;
+  background: #e0ece4;
+  min-height: 47rem;
+  max-height: 47rem;
+}
+
+.card-container {
+  border: 1px double lightgray;
+  box-shadow: 0 0 2px gray;
+  height: 100%;
+}
+
+.card-eevee {
+  background: rgb(157,156,165);
+  background: linear-gradient(234deg, rgba(157,156,165,1) 8%, rgba(191,190,192,1) 25%, rgba(242,245,238,1) 42%, rgba(162,162,170,1) 87%, rgba(191,190,192,1) 90%, rgba(242,245,238,1) 99%);
+}
+.card-picachu {
+  background: #FFDF2B;
+  background: rgb(255,223,43);
+background: linear-gradient(219deg, rgba(255,223,43,1) 0%, rgba(255,243,173,1) 20%, rgba(255,223,43,1) 35%, rgba(255,238,146,1) 63%, rgba(255,243,173,1) 88%, rgba(255,223,43,1) 98%);
+}
+
+.card-bulbasaour {
+  background: teal;
+  background: rgb(0,160,104);
+  background: linear-gradient(234deg, rgba(0,160,104,1) 8%, rgba(213,227,199,1) 25%, rgba(0,160,104,1) 63%, rgba(132,188,142,1) 75%, rgba(213,227,199,1) 89%);
+}
+
+.card-squirtle {
+  background: rgb(0,170,231);
+  background: linear-gradient(234deg, rgba(0,170,231,1) 8%, rgba(136,208,243,1) 25%, rgba(196,226,246,1) 53%, rgba(196,226,246,1) 62%, rgba(196,226,246,1) 77%, rgba(0,170,231,1) 96%);
+}
+
+.card-charmander {
+  background: rgb(230,51,29);
+background: linear-gradient(234deg, rgba(230,51,29,1) 8%, rgba(235,110,55,1) 25%, rgba(245,172,123,1) 42%, rgba(235,110,55,1) 72%, rgba(241,147,96,1) 81%, rgba(235,110,55,1) 88%, rgba(230,51,29,1) 97%);
+}
+
+  .card-title {
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  border-bottom: 1px solid gray;
+  margin-bottom: 0.2rem;
+  box-shadow: 0px 5px 10px gray;
+}
+
+.card-title__element {
+  display: flex;
+  background: lightgray;
+  height: 2rem;
+  width: 5rem;
+  border: 2px solid gray;
+  border-radius: 0.7rem;
+  align-items: center;
+  padding-left: 0.5rem;  
+  box-shadow: -2px 2px 2px gray;
+  margin-left: 0.3rem;
+}
+
+.card-title div {
+  display: flex;
+}
+
+.card-title__name{
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.card-title__power{
+  font-size: 1.5rem;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+}
+
+.card-title__power span {
+  font-size: 1rem;
+}
+.logo {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 100%;
+  margin: 0 .2rem;
+}
+
+.card-title div:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.card-image-container {
+  text-align: center;
+}
+
+.card-image {
+  border: 3px solid #938B87;
+  width: 95%;
+}
+
+.card-down {
+  margin-top: .8rem;
+  margin-left: .4rem;
+  height: 47%;
+}
+
+.atack {
+  margin-top: 1rem;
+}
+
+.atack-ability {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  background: lightgray;
+  height: 2rem;
+  width: 7rem;
+  border: 2px solid gray;
+  border-radius: 0.7rem;
+  align-items: center;
+  padding-left: 0.5rem;  
+  box-shadow: -2px 2px 2px gray;
+}
+
+.atack-title {  
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+
+.atack-title {
+  margin-left: 0.7rem;
+}
+
+.atack-title__text {  
+  font-size: inherit;
+  padding-right: 5rem;
+}
+
+.atack-image {
+  width: 1.6rem;
+  border-radius: 100%;
+}
+
+.atack-description{
+  font-size: 1.2rem;
+  margin:  0 0.4rem;
+}
+
+.atack-power{
+  font-weight: bold;
+  margin-right: 0.3rem;
+}
+
+.weakness {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 0.7rem;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid lightgrey;
+  width: 70%;
+  height: 3.5rem;
+  box-shadow: 0px 10px 10px lightgrey;
+  box-shadow: -1px 1px 5px grey;
+  font-size: 0.8rem;
+}
+
+.card-charmander .weakness {
+  margin-top: 3.5rem;
+}
+
+.weakness-title figure{
+  max-width: 1.5rem;
+  display: flex;
+  margin-top: .3rem;
+  margin-left: 0.6rem;
+  padding-bottom: 2rem;
+}
+
+.weakness-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  margin-right: 0.3rem;
+}
+
+.weakness-title__type{
+  font-size: 1rem;
+  margin-right: 2rem;
+  margin-left: 0.8rem;
+}
+
+.weakness-description {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.retire{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.retire-text {
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+.retire-image {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.foot {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.foot p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.foot img {
+  height: 1.2rem;
+}
+
+.foot-picachu img {
+  height: 2rem;
+}
+
+.other-cards {
+  margin: 0 auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  min-width: 6rem;
+  min-height: 6rem;
+  flex-wrap: wrap;
+}
+
+.other-cards__image {
+  background: midnightblue;
+  height: 60px;
+  width: 60px;
+  min-width: 60px;
+  border-radius: 100%;
+  margin: 0.5rem;
+  display: flex;  
+  align-items:  center;
+  justify-content: center;
+  border: 3px solid gray;
+  cursor: pointer;
+}
+
+.other-cards__image:hover {
+    background: mediumpurple;
+}
+
+.other-cards__image img {  
+  width: 80%;
+}
+
+.nav-eevee .eevee  {
+  min-width: 7rem;
+  min-height: 7rem;
+  background: mediumpurple;
+}
+.nav-picachu .picachu  {
+  min-width: 7rem;
+  min-height: 7rem;
+  background: mediumpurple;
+}
+.nav-bulbasaur .bulbasaur  {
+  min-width: 7rem;
+  min-height: 7rem;
+  background: mediumpurple;
+}
+.nav-squirtle .squirtle  {
+  min-width: 7rem;
+  min-height: 7rem;
+  background: mediumpurple;
+}
+.nav-charmander .charmander {
+  min-width: 7rem;
+  min-height: 7rem;
+  background: mediumpurple;
+}
+
+footer {
+  background-color: midnightblue;
+  color: white;
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 3rem;
+  flex-wrap: inherit;
+}
+
+footer span {
+  align-items: center;;
+}
