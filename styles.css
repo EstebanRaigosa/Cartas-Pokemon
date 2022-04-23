@@ -318,3 +318,19 @@ background: linear-gradient(234deg, rgba(230,51,29,1) 8%, rgba(235,110,55,1) 25%
   min-height: 7rem;
   background: mediumpurple;
 }
+
+footer {
+  background-color: midnightblue;
+  color: white;
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 3rem;
+  flex-wrap: inherit;
+}
+
+footer span {
+  align-items: center;;
+}
